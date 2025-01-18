@@ -36,7 +36,7 @@
     </main>
 
     <main id="login">
-        <h2>Login to Your Account</h2>
+        <h2 style="display: flex; align-items: center ; justify-content: center;">Login to Your Account</h2>
         <form id="loginForm" onsubmit="handleLogin(event)">
             <label for="loginEmail">Email:</label>
             <input type="email" id="loginEmail" required>
@@ -44,11 +44,11 @@
             <input type="password" id="loginPassword" required>
             <button type="submit">Login</button>
         </form>
-        <p>Don't have an account? <a href="#" onclick="showSection('signup')">Sign up here</a></p>
+        <p style="display: flex; align-items: center ; justify-content: center;">Don't have an account? <a href="#" onclick="showSection('signup')">Sign up here</a></p>
     </main>
 
     <main id="signup">
-        <h2>Create Your Account</h2>
+        <h2 style="display: flex; align-items: center ; justify-content: center;">Create Your Account</h2>
         <form id="signupForm" onsubmit="handleSignup(event)">
             <label for="username">Username:</label>
             <input type="text" id="username" required>
@@ -58,20 +58,20 @@
             <input type="password" id="signupPassword" required>
             <button type="submit">Sign Up</button>
         </form>
-        <p>Already have an account? <a href="#" onclick="showSection('login')">Login here</a></p>
+        <p style="display: flex; align-items: center ; justify-content: center;">Already have an account? <a href="#" onclick="showSection('login')">Login here</a></p>
     </main>
 
     <main id="dashboard">
-        <h2>Your Dashboard</h2>
-        <h3>Upload Study Materials</h3>
+        <h2 style="display: flex; align-items: center ; justify-content: center;">Your Dashboard</h2>
+        <h3 style="display: flex; align-items: center ; justify-content: center;">Upload Study Materials</h3>
         <form id="uploadForm" onsubmit="handleUpload(event)">
             <input type="file" id="fileUpload" required>
             <button type="submit">Upload</button>
         </form>
-        <h3>Mock Tests</h3>
-        <p>Take mock tests based on your uploaded materials.</p>
-        <h3>Study Groups</h3>
-        <p>Connect with peers and form study groups.</p>
+        <h3 style="display: flex; align-items: center ; justify-content: center;">Mock Tests</h3>
+        <p style="display: flex; align-items: center ; justify-content: center;">Take mock tests based on your uploaded materials.</p>
+        <h3 style="display: flex; align-items: center ; justify-content: center;">Study Groups</h3>
+        <p style="display: flex; align-items: center ; justify-content: center;">Connect with peers and form study groups.</p>
     </main>
 
     <main id="profile" style="display: none;">

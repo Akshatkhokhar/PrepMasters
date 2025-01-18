@@ -110,6 +110,9 @@ main.active {
 form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
     gap: 15px;
 }
 
